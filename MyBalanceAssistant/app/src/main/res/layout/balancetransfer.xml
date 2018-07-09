@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/balance"
+    android:background="#d1c7ada6"
+
+    >
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Security Code"
+    android:id="@+id/security"
+    android:textAlignment="center"
+    android:layout_marginTop="100dp"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Phone number"
+            android:id="@+id/phone"
+            android:textAlignment="center"
+            android:textColor="#000"/>
+        <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/contacts"
+            android:src="@drawable/contacts"
+            android:layout_alignParentRight="true"
+
+
+            />
+    </RelativeLayout>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Amount in Rs"
+        android:id="@+id/amount"
+        android:textAlignment="center"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Transfer"
+        android:id="@+id/transfer"
+        android:layout_gravity="center"
+        />
+
+    <Button
+        android:id="@+id/canel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="cancel" />
+
+
+</LinearLayout>

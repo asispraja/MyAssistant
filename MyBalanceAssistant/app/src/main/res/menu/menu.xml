@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Recharge"
+        android:id="@+id/recharge"/>
+    <item android:title="View Balance "
+        android:id="@+id/balance"/>
+    <item android:title="Balance Transfer"
+        android:id="@+id/transfer"/>
+    <item
+        android:id="@+id/data"
+        android:title="Data Scheme"
+        >
+
+    </item>
+    <item android:title="Password Book"
+        android:id="@+id/mypass"/>
+
+
+
+
+
+</menu>
